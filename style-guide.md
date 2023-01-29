@@ -11,14 +11,14 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+- Pale blue: hsl(225, 100%, 94%) shadow
+- Bright blue: hsl(245, 75%, 52%) button
 
 ### Neutral
 
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
+- Very pale blue: hsl(225, 100%, 98%)  plan background 
+- Desaturated blue: hsl(224, 23%, 55%) text
+- Dark blue: hsl(223, 47%, 23%) heading
 
 ## Typography
 

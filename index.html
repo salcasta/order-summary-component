@@ -24,57 +24,58 @@
 
 <body>
 
-  <div class="container">
-    <div class="row">
-      <div class="card g-0 border rounded-4" style="width: 20rem; height: 30rem;">
-        <img src="images/illustration-hero.svg" class="card-img-top img-fluid border border-0 rounded-top-3"
-          alt="hero listening to music">
-        <div class="h-100">
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="card g-0 border border-0 rounded-4" style="width: 20rem; height: 30rem;">
+          <img src="images/illustration-hero.svg" class="card-img-top mainPic img-fluid border border-0 rounded-top-3"
+            alt="hero listening to music">
+          <div class="h-100 border border-0 rounded-bottom-4">
 
-          <h5 class="card-title">Order Summary</h5>
+            <h5 class="card-title text-center mt-4">Order Summary</h5>
 
-          <p class="card-text">
-            You can now listen to millions of songs, audiobooks, and podcasts on any
-            device anywhere you like!
-          </p>
+            <p class="card-text text-center my-3 px-4">
+              You can now listen to millions of songs, audiobooks, and podcasts on any
+              device anywhere you like!
+            </p>
 
-          <div class="container">
-            <div class="row">
-              <img src="images/icon-music.svg" class="col-2" alt="music icon" style="width: 3.2rem; height: 2rem;">
+            <div class="container planBox border border-0 rounded-3">
+              <div class="row">
+                <img src="images/icon-music.svg" class="col-4 musicIcon align-self-center" alt="music icon">
 
-              <div class="col-5">
-                <span>Annual Plan</span>
-                <span>$59.99/year</span>
+                <div class="col-4 me-4">
+                  <span class="planTime align-self-center">Annual Plan</span>
+                  <span class="planPrice align-self-center">$59.99/year</span>
+                </div>
+
+                <button class="btn btn-link changeBTN col-4 align-self-center">
+                  Change
+                </button>
+
               </div>
-
-              <div class="col-1">
-
-              </div>
-
-              <button class="btn col-4">
-                Change
-              </button>
-
             </div>
+
+            <div class="d-grid gap-2 my-3 px-4">
+              <button class="btn btn-primary paymentBTN btn-lg lh-lg d-block">
+                Proceed to Payment
+              </button>
+            </div>
+
+            <button class=" btn btn-link cancelBTN text-decoration-none text-center d-block">
+              Cancel Order
+            </button>
           </div>
-
-          <button class="btn btn-primary d-block">
-            Proceed to Payment
-          </button>
-
-          <button class="btn btn-primary d-block">
-            Cancel Order
-          </button>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">salcasta</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">salcasta</a>.
+    </div>
+  </footer>
 </body>
 
 </html>
